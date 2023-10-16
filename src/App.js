@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
 
+console.log("Env check", process.env.KEY)
+console.log("Env react code", process.env.REACT_APP_NOT_SECRET_CODE)
 function App() {
   return (
     <div className="App">
